@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Box, Container, Stack } from "@mui/material";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Footers = styled.div`
@@ -50,7 +49,7 @@ export default function Footer() {
                 />
               </svg>
               <Box className={"foot-desc-txt"}>
-                Dokbe-ro 1, Incheon, South Korea
+                Dokbe-ro 201-1, Incheon, South Korea
               </Box>
             </Box>
             <Box className={"foot-cover"}>
